@@ -78,6 +78,10 @@ a:hover {
     margin-top: 70px;
 }
 
+.pad-top-60 {
+    padding-top: 60px;
+}
+
 .padding-lat-20 {
     padding: 0 20px;
 }
@@ -388,6 +392,15 @@ a:hover {
 
 .section-seve-container-full-width {
     background-color: #f3f5f9;
+}
+
+.row.txt-cntr {
+    background-color: #f3f5f9;
+}
+
+.section-seven-style {
+    background-color: white;
+    padding: 70px 0;
 }
 
 .rocker-logo {
