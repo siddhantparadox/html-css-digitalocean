@@ -7,15 +7,33 @@
     position: relative;
 }
 
+.marg-10 {
+    margin: 10px;
+}
+
+.padding-lat-20 {
+    padding: 0 5px;
+}
+
+.txt-al-rig {
+    text-align: right;
+}
+
 
 /* HEADER */
+
+.container.header {
+    margin: 20px auto;
+}
 
 .header {
     margin: 20px;
 }
 
 .header-img {
+    width: 100%;
     max-width: 200px;
+    margin-top: 10px;
 }
 
 .fa-bars {
