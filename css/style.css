@@ -86,6 +86,14 @@ a:hover {
     margin-bottom: 50px;
 }
 
+.marg-top-100 {
+    margin-top: 100px;
+}
+
+.pad-top-100 {
+    padding-top: 100px;
+}
+
 
 /* HEADER */
 
@@ -341,6 +349,15 @@ a:hover {
 
 
 /* SECTION SIX - BLUE TABLE */
+
+.section-six-container-full-width {
+    background-color: hsl(227, 100%, 30.8%);
+}
+
+.section-six-h1 {
+    color: white;
+    font-weight: 700;
+}
 
 
 /* SECTION SEVEN - DEVELOPMENT */
