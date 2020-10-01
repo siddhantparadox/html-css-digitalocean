@@ -12,28 +12,28 @@
 }
 
 .padding-lat-20 {
-    padding: 0 5px;
+    padding: 0 20px;
 }
 
 .txt-al-rig {
     text-align: right;
 }
 
+.font-13 {
+    font-size: 13px;
+}
+
 
 /* HEADER */
 
 .container.header {
-    margin: 20px auto;
-}
-
-.header {
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .header-img {
     width: 100%;
     max-width: 200px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .fa-bars {
@@ -41,6 +41,32 @@
     margin-top: 10px;
     color: #2485fd;
     font-size: 22px;
+}
+
+.btn-sign-up {
+    padding: 10px 10px;
+    border: 1px solid #004aff;
+    border-radius: 5px;
+    color: #004aff;
+}
+
+
+/* font size of the list reduced */
+
+@media screen and (max-width: 1200px) {
+    .container.header ul li a {
+        font-size: 8px
+    }
+}
+
+
+/* logo img kept in line */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-img {
+        position: relative;
+        top: 12px;
+    }
 }
 
 
