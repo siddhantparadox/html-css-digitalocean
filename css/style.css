@@ -421,5 +421,24 @@ a:hover {
 
 /* SECTION EIGHT - GET STARTED */
 
+.section-eight-container-full-width {
+    background-color: #0026a0;
+}
+
+.sect-eight-get-start {
+    margin: 50px 0 30px 0;
+    color: white;
+    font-size: 30px;
+}
+
+.btn-sect-eight {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: #006aff;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
 
 /* SECTION NINE - BLUE LIST */
