@@ -82,6 +82,10 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.marg-bot-50 {
+    margin-bottom: 50px;
+}
+
 
 /* HEADER */
 
@@ -274,6 +278,15 @@ a:hover {
 
 
 /* SECTION FOUR - DESIGNED */
+
+.section-four-container-full-width {
+    background-color: #f3f5f9;
+}
+
+.section-four-container-full-width .container h2,
+.section-four-container-full-width .container h3 {
+    color: hsl(220, 92.6%, 15.9%);
+}
 
 .img-droplet {
     max-width: 100%;
