@@ -267,6 +267,22 @@ a:hover {
     max-width: 100%;
 }
 
+.fa-chevron-left {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+.fa-chevron-right {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
 
 /* SECTION FIVE - THE FEATURE */
 
