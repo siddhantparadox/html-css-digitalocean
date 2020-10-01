@@ -1,6 +1,13 @@
 /* Typography */
 
 
+/* Utility */
+
+.pos-rel {
+    position: relative;
+}
+
+
 /* HEADER */
 
 .header {
@@ -8,7 +15,14 @@
 }
 
 .header-img {
-    max-width: 100%;
+    max-width: 200px;
+}
+
+.fa-bars {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2485fd;
+    font-size: 22px;
 }
 
 
