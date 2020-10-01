@@ -365,6 +365,16 @@ a:hover {
     margin: 20px 5px;
 }
 
+.section-six-cities {
+    color: hsl(226, 46.2%, 81.8%);
+    font-weight: 500;
+}
+
+.section-six-speed {
+    color: hsl(178.9, 100%, 41.8%);
+    font-weight: 700;
+}
+
 
 /* SECTION SEVEN - DEVELOPMENT */
 
