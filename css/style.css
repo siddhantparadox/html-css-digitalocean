@@ -3,6 +3,14 @@
 
 /* HEADER */
 
+.header {
+    margin: 20px;
+}
+
+.header-img {
+    max-width: 100%;
+}
+
 
 /* SECTION ONE -BLUE HERO */
 
