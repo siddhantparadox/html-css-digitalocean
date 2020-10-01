@@ -31,11 +31,6 @@ a:hover {
     display: inline-block;
 }
 
-.bord-left {
-    border-left: 2px solid black;
-    height: 100px;
-}
-
 
 /* Utility */
 
@@ -43,20 +38,24 @@ a:hover {
     position: relative;
 }
 
+.marg-top-40 {
+    margin-top: 40px;
+}
+
 .marg-10 {
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .marg-30 {
-    margin: 30px;
+    margin-top: 30px;
 }
 
 .marg-50 {
-    margin: 50px;
+    margin-top: 50px;
 }
 
 .marg-70 {
-    margin: 70px;
+    margin-top: 70px;
 }
 
 .padding-lat-20 {
@@ -207,13 +206,6 @@ a:hover {
     padding: 30px 0;
 }
 
-.pos-rel img {
-    /* position: absolute; */
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    /* padding: 0 10px; */
-}
-
 .business {
     font-size: 15px;
     color: hsl(222, 16.1%, 51.4%);
@@ -233,11 +225,31 @@ a:hover {
 }
 
 
+/* -------------------------------------- */
+
+
+/* modificare il view customer story margin */
+
+.col-xs-12.col-md-4.row.col-xs-6.pos-rel {
+    margin-bottom: 20px;
+}
+
+
+/* --------------------------------- */
+
+
 /* SECTION THREE - DEPLOY */
+
+.bord-left {
+    border-left: 2px solid #75809a;
+    height: 150px;
+}
 
 .marg-neg-30 {
     margin-left: -30px;
     list-style: none;
+    font-size: 20px;
+    color: #75809a;
 }
 
 .img-global {
