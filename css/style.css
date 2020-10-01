@@ -42,6 +42,18 @@ a:hover {
     position: relative;
 }
 
+.marg-top-10 {
+    margin-top: 10px;
+}
+
+.marg-top-20 {
+    margin-top: 20px;
+}
+
+.marg-top-30 {
+    margin-top: 30px;
+}
+
 .marg-top-40 {
     margin-top: 40px;
 }
