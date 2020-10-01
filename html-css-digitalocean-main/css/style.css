@@ -1,0 +1,426 @@
+/* Typography */
+
+a:hover {
+  text-decoration: none;
+}
+
+.txt-al-rig {
+  text-align: right;
+}
+
+.txt-cntr {
+  text-align: center;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.txt-white {
+  color: white;
+}
+
+.img-logo-section {
+  max-width: 100%;
+  height: 50px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+/* Utility */
+
+.d-block {
+  display: block;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.marg-top-10 {
+  margin-top: 10px;
+}
+
+.marg-top-20 {
+  margin-top: 20px;
+}
+
+.marg-top-30 {
+  margin-top: 30px;
+}
+
+.marg-top-40 {
+  margin-top: 40px;
+}
+
+.marg-10 {
+  margin-top: 10px;
+}
+
+.marg-30 {
+  margin-top: 30px;
+}
+
+.marg-50 {
+  margin-top: 50px;
+}
+
+.marg-70 {
+  margin-top: 70px;
+}
+
+.pad-top-60 {
+  padding-top: 60px;
+}
+
+.padding-lat-20 {
+  padding: 0 20px;
+}
+
+.marg-bot-20 {
+  margin-bottom: 20px;
+}
+
+.marg-bot-50 {
+  margin-bottom: 50px;
+}
+
+.marg-top-100 {
+  margin-top: 100px;
+}
+
+.pad-top-100 {
+  padding-top: 100px;
+}
+
+.back-white {
+  background-color: white;
+}
+
+/* HEADER */
+
+/* ---------------------------------------- */
+
+/* modificare il logo e la line-height del menu */
+
+/* ----------------------------------- */
+
+.container.header {
+  margin-top: 20px;
+  line-height: 80px;
+}
+
+.header-img {
+  min-width: 150px;
+  max-width: 100%;
+  /* margin-top: 10px; */
+}
+
+.fa-bars {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2485fd;
+  font-size: 22px;
+}
+
+.btn-sign-up {
+  padding: 10px 10px;
+  border: 1px solid #004aff;
+  border-radius: 5px;
+  color: #004aff;
+}
+
+/* font size of the list reduced */
+
+@media screen and (max-width: 1200px) {
+  .container.header ul li a {
+    font-size: 8px;
+  }
+}
+
+/* SECTION ONE -BLUE HERO */
+
+.section-one-blue-hero-container-full-width {
+  margin: 20px 0 0 0;
+  background-image: url("../DigitalOcean/assets/bg-banner-home.jpg");
+  background-size: cover;
+}
+
+.txt-white h1 {
+  font-size: 46px;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 993px) {
+  .txt-white h1 {
+    font-size: 61px;
+  }
+}
+
+.txt-white p {
+  color: #b3c7ff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 33px;
+  padding-top: 10px;
+}
+
+.white-back {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.white-back h2 span {
+  color: blue;
+}
+
+.white-back h2,
+.white-back span,
+.create-account {
+  text-align: center;
+}
+
+.white-back h2 {
+  margin-bottom: 20px;
+}
+
+.fa-google {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.create-account {
+  border-radius: 5px;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 20px;
+  background-color: #579aff;
+  color: white;
+  position: relative;
+}
+
+.your a {
+  color: white;
+  font-size: 18px;
+}
+
+.google {
+  background-color: white;
+  color: #626262;
+  border-bottom: 1px solid #626262;
+}
+
+.google a {
+  color: #626262;
+  font-size: 18px;
+}
+
+.terms-of-service {
+  font-size: 16px;
+}
+
+/* SECTION TWO - LOGOS */
+
+.section-two-container-full-width {
+  background-color: #f3f5f9;
+  padding: 30px 0;
+}
+
+.business {
+  font-size: 15px;
+  color: hsl(222, 16.1%, 51.4%);
+  font-weight: 700;
+}
+
+.col-xs-offset-4 .txt-cntr a {
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #397ab7;
+}
+
+@media screen and (min-width: 450px) {
+  .img-logo-section {
+    height: 90px;
+  }
+}
+
+/* -------------------------------------- */
+
+/* modificare il view customer story margin */
+
+.col-xs-12.col-md-4.row.col-xs-6.pos-rel {
+  margin-bottom: 20px;
+}
+
+/* --------------------------------- */
+
+/* SECTION THREE - DEPLOY */
+
+.bord-left {
+  border-left: 2px solid #75809a;
+  height: 150px;
+}
+
+.marg-neg-30 {
+  margin-left: -30px;
+  list-style: none;
+  font-size: 20px;
+  color: #75809a;
+}
+
+.img-global {
+  margin-top: 15px;
+}
+
+/* SECTION FOUR - DESIGNED */
+
+.section-four-container-full-width {
+  background-color: #f3f5f9;
+}
+
+.section-four-container-full-width .container h2,
+.section-four-container-full-width .container h3 {
+  color: hsl(220, 92.6%, 15.9%);
+}
+
+.img-droplet {
+  max-width: 100%;
+}
+
+.fa-chevron-left {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+.fa-circle {
+  color: #006aff;
+  font-size: 12px;
+}
+
+/* SECTION FIVE - THE FEATURE */
+
+.section-five-title {
+  color: hsl(220, 92.6%, 15.9%);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.section-5-h3-blue {
+  color: hsl(220, 92.6%, 15.9%);
+  font-weight: 700;
+}
+
+.section-five-a {
+  color: hsl(215.6, 100%, 60.4%);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-five-p {
+  font-size: 17px;
+  color: hsl(220.9, 19.3%, 44.7%);
+  font-weight: 600;
+}
+
+/* SECTION SIX - BLUE TABLE */
+
+.section-six-container-full-width {
+  background-color: hsl(227, 100%, 30.8%);
+}
+
+.section-six-h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.bord-bot {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin: 20px 5px;
+}
+
+.section-six-cities {
+  color: hsl(226, 46.2%, 81.8%);
+  font-weight: 500;
+}
+
+.section-six-speed {
+  color: hsl(178.9, 100%, 41.8%);
+  font-weight: 700;
+}
+
+/* SECTION SEVEN - DEVELOPMENT */
+
+.section-seve-container-full-width {
+  background-color: #f3f5f9;
+}
+
+.row.txt-cntr {
+  background-color: #f3f5f9;
+}
+
+.section-seven-style {
+  background-color: white;
+  padding: 70px 0;
+}
+
+.rocker-logo {
+  max-width: 70%;
+}
+
+.rick-bold {
+  font-weight: bolder;
+  font-weight: 700;
+}
+
+.section-seven-style h2,
+.section-seven-style h4,
+.section-seven-style h5 {
+  color: black;
+}
+
+/* SECTION EIGHT - GET STARTED */
+
+.section-eight-container-full-width {
+  background-color: #0026a0;
+}
+
+.sect-eight-get-start {
+  margin: 50px 0 30px 0;
+  color: white;
+  font-size: 30px;
+}
+
+.btn-sect-eight {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: #006aff;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+/* SECTION NINE - BLUE LIST */
