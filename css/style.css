@@ -1,5 +1,29 @@
 /* Typography */
 
+a:hover {
+    text-decoration: none;
+}
+
+.txt-al-rig {
+    text-align: right;
+}
+
+.txt-cntr {
+    text-align: center;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.txt-white {
+    color: white;
+}
+
 
 /* Utility */
 
@@ -13,14 +37,6 @@
 
 .padding-lat-20 {
     padding: 0 20px;
-}
-
-.txt-al-rig {
-    text-align: right;
-}
-
-.font-13 {
-    font-size: 13px;
 }
 
 
@@ -71,7 +87,8 @@
 .white-back {
     background-color: white;
     border-radius: 10px;
-    margin: 30px 0;
+    margin: 20px 0;
+    padding: 20px;
 }
 
 .white-back h2 span {
@@ -88,17 +105,35 @@
     margin-bottom: 20px;
 }
 
+.fa-google {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .create-account {
-    border: 1px solid black;
     border-radius: 5px;
     height: 30px;
     line-height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: #579aff;
+    color: white;
+    position: relative;
 }
 
-.fa-google {
-    text-align: left;
-    display: inline-block;
+.your a {
+    color: white;
+}
+
+.google {
+    background-color: white;
+    color: #626262;
+    border-bottom: 1px solid #626262;
+}
+
+.google a {
+    color: #626262;
 }
 
 
