@@ -98,6 +98,10 @@ a:hover {
     padding-top: 100px;
 }
 
+.back-white {
+    background-color: white;
+}
+
 
 /* HEADER */
 
@@ -381,6 +385,25 @@ a:hover {
 
 
 /* SECTION SEVEN - DEVELOPMENT */
+
+.section-seve-container-full-width {
+    background-color: #f3f5f9;
+}
+
+.rocker-logo {
+    max-width: 70%;
+}
+
+.rick-bold {
+    font-weight: bolder;
+    font-weight: 700;
+}
+
+.section-seven-style h2,
+.section-seven-style h4,
+.section-seven-style h5 {
+    color: black;
+}
 
 
 /* SECTION EIGHT - GET STARTED */
