@@ -38,6 +38,10 @@ a:hover {
 
 /* Utility */
 
+.d-block {
+    display: block;
+}
+
 .pos-rel {
     position: relative;
 }
