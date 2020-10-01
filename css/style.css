@@ -31,8 +31,8 @@
 }
 
 .header-img {
-    width: 100%;
-    max-width: 200px;
+    min-width: 150px;
+    max-width: 100%;
     /* margin-top: 10px; */
 }
 
@@ -60,17 +60,46 @@
 }
 
 
-/* logo img kept in line */
+/* SECTION ONE -BLUE HERO */
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    .header-img {
-        position: relative;
-        top: 12px;
-    }
+.section-one-blue-hero-container-full-width {
+    margin: 20px 0;
+    background-image: url("../DigitalOcean/assets/bg-banner-home.jpg");
+    background-size: cover;
 }
 
+.white-back {
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 0;
+}
 
-/* SECTION ONE -BLUE HERO */
+.white-back h2 span {
+    color: blue;
+}
+
+.white-back h2,
+.white-back span,
+.create-account {
+    text-align: center;
+}
+
+.white-back h2 {
+    margin-bottom: 20px;
+}
+
+.create-account {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.fa-google {
+    text-align: left;
+    display: inline-block;
+}
 
 
 /* SECTION TWO - LOGOS */
